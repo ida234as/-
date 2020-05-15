@@ -37,5 +37,5 @@ async def on_message(message):
 
 
 
-
-client.run("NzA5MjAwNjc4MDM5NTg0ODY4.XridCw.454Cax4rvGCy6J92fvuvRoxc71w")
+access_token = os.enriron["BOT_TOKEN"]
+client.run(access_token)
