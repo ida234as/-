@@ -1,5 +1,10 @@
 import discord
 import asyncio
+import os
+
+
+
+
 client = discord.Client()
 
 
@@ -32,8 +37,6 @@ async def on_message(message):
         await message.channel.send('ㅂㅇㅂㅇ')
     if message.content.startswith('넌 누구야?'):
         await message.channel.send('난 봇이야 ㅋㅋ')
-
-
 
 
 
